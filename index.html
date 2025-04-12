@@ -3,38 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dentista.hr - Uskoro dolazimo</title>
+    <title>
+      Dentista.hr | Dentista Specialist - Vaš pouzdani partner u dentalnoj
+      medicini
+    </title>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Dentista.hr - Uskoro dolazimo" />
+    <meta
+      name="title"
+      content="Dentista.hr | Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini"
+    />
     <meta
       name="description"
-      content="Vaš pouzdani partner u dentalnoj medicini. Uskoro vam predstavljamo našu novu web stranicu."
+      content="Dentista.hr i Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini. Pružamo vrhunske dentalne usluge i stručno savjetovanje. Uskoro vam predstavljamo našu novu web stranicu."
     />
+    <meta name="author" content="Dentista.hr" />
+    <meta
+      name="keywords"
+      content="dentista, dentista.hr, dentista specialist, stomatolog, zubar, dentalna medicina, zagreb, hrvatska, dental care, stomatološka ordinacija"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://dentista.hr/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dentista.hr/" />
-    <meta property="og:title" content="Dentista.hr - Uskoro dolazimo" />
+    <meta property="og:site_name" content="Dentista.hr" />
+    <meta
+      property="og:title"
+      content="Dentista.hr | Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini"
+    />
     <meta
       property="og:description"
-      content="Vaš pouzdani partner u dentalnoj medicini. Uskoro vam predstavljamo našu novu web stranicu."
+      content="Dentista.hr i Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini. Pružamo vrhunske dentalne usluge i stručno savjetovanje. Uskoro vam predstavljamo našu novu web stranicu."
     />
     <meta property="og:image" content="https://dentista.hr/HeroImage.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="hr_HR" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://dentista.hr/" />
-    <meta property="twitter:title" content="Dentista.hr - Uskoro dolazimo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://dentista.hr/" />
     <meta
-      property="twitter:description"
-      content="Vaš pouzdani partner u dentalnoj medicini. Uskoro vam predstavljamo našu novu web stranicu."
+      name="twitter:title"
+      content="Dentista.hr | Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini"
     />
     <meta
-      property="twitter:image"
-      content="https://dentista.hr/HeroImage.jpg"
+      name="twitter:description"
+      content="Dentista.hr i Dentista Specialist - Vaš pouzdani partner u dentalnoj medicini. Pružamo vrhunske dentalne usluge i stručno savjetovanje. Uskoro vam predstavljamo našu novu web stranicu."
+    />
+    <meta name="twitter:image" content="https://dentista.hr/HeroImage.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Dentista.hr - Profesionalna dentalna ordinacija"
     />
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -42,29 +64,92 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <div class="container">
-      <div class="content">
-        <div class="logo-placeholder">
-          <img src="DentistaLogo.png" alt="Dentista.hr Logo" class="logo" />
-        </div>
-        <div class="main-image">
-          <img src="HeroImage.jpg" alt="Dental Care" class="hero-image" />
-        </div>
-        <h1>Uskoro dolazimo</h1>
-        <p class="subtitle">Vaš pouzdani partner u dentalnoj medicini</p>
-        <div class="coming-soon-text">
-          <p>
-            Radimo na tome da vam uskoro predstavimo našu novu web stranicu.
+    <main
+      class="container dentista-container"
+      itemscope
+      itemtype="http://schema.org/Organization"
+    >
+      <div class="content dentista-content">
+        <header class="site-header dentista-header">
+          <div class="logo-placeholder dentista-logo-container">
+            <img
+              src="DentistaLogo.png"
+              alt="Dentista.hr i Dentista Specialist Logo"
+              class="logo dentista-logo"
+              itemprop="logo"
+              width="200"
+              height="80"
+            />
+          </div>
+        </header>
+
+        <section class="hero-section dentista-hero">
+          <div class="main-image dentista-main-image">
+            <img
+              src="HeroImage.jpg"
+              alt="Dentista.hr - Moderna stomatološka ordinacija s najnovijom opremom"
+              class="hero-image dentista-hero-image"
+              width="1200"
+              height="630"
+              loading="eager"
+            />
+          </div>
+          <h1 class="main-title dentista-title" itemprop="name">
+            Uskoro dolazimo
+          </h1>
+          <p class="subtitle dentista-subtitle" itemprop="slogan">
+            Vaš pouzdani partner u dentalnoj medicini
           </p>
-          <p>Ostanite s nama!</p>
-        </div>
-        <div class="address-section">
-          <address>
-            <p><a href="mailto:info@dentista.hr">info@dentista.hr</a></p>
-          </address>
-        </div>
+        </section>
+
+        <section class="announcement-section dentista-announcement">
+          <div class="coming-soon-text dentista-text">
+            <p itemprop="description">
+              Radimo na tome da vam uskoro predstavimo našu novu web stranicu.
+            </p>
+          </div>
+        </section>
+
+        <footer class="site-footer dentista-footer">
+          <div class="contact-section dentista-contact">
+            <address itemprop="address">
+              <p class="email-contact dentista-email">
+                <a
+                  href="mailto:info@dentista.hr"
+                  itemprop="email"
+                  class="contact-link dentista-link"
+                >
+                  info@dentista.hr
+                </a>
+              </p>
+            </address>
+          </div>
+          <div class="seo-footer dentista-seo-footer" aria-hidden="true">
+            <p itemprop="keywords">
+              Dentalna medicina, stomatološka ordinacija, Dentista.hr, Dentista
+              Specialist, Zagreb
+            </p>
+          </div>
+        </footer>
       </div>
-    </div>
+    </main>
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Dentist",
+        "name": "Dentista.hr",
+        "alternateName": "Dentista Specialist",
+        "description": "Vaš pouzdani partner u dentalnoj medicini. Pružamo vrhunske dentalne usluge i stručno savjetovanje.",
+        "url": "https://dentista.hr",
+        "logo": "https://dentista.hr/DentistaLogo.png",
+        "image": "https://dentista.hr/HeroImage.jpg",
+        "email": "info@dentista.hr",
+        "areaServed": "Hrvatska"
+      }
+    </script>
   </body>
 </html>

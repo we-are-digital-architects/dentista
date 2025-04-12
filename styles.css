@@ -112,6 +112,10 @@ h1 {
   color: var(--secondary-color);
 }
 
+.dentista-seo-footer {
+  color: #fff;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   h1 {
