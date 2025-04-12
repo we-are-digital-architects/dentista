@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /styles.css
+Allow: /DentistaLogo.png
+Allow: /HeroImage.jpg
+
+# Sitemap
+Sitemap: https://dentista.hr/sitemap.xml
+
+# Crawl-delay to be nice to servers
+Crawl-delay: 10
+
+# Common files and directories to disallow
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+
