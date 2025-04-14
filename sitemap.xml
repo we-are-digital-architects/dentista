@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://dentista.hr/</loc>
-        <lastmod>2025-04-12</lastmod>
+        <lastmod>2025-04-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -12,7 +12,7 @@
         </image:image>
         <image:image>
             <image:loc>https://dentista.hr/HeroImage.jpg</image:loc>
-            <image:title>Dentista.hr - Moderna stomatološka ordinacija s najnovijom opremom</image:title>
+      <image:title>Dentista.hr - Specijalistička ordinacija za dentalnu kirurgiju</image:title>
         </image:image>
     </url>
 </urlset>

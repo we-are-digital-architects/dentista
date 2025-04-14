@@ -112,6 +112,10 @@ h1 {
   color: var(--secondary-color);
 }
 
+.contact-link {
+  color: var(--secondary-color);
+}
+
 .dentista-seo-footer {
   color: #fff;
 }
